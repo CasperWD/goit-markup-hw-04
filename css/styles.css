@@ -1,0 +1,354 @@
+
+
+img {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    margin: -1px;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* ==========HEADER========== */
+
+header {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-right: 76px;
+}
+
+.header-logo span {
+    color: #2E2F42;
+}
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 332px;
+    align-items: center;
+}
+
+.header-link {
+padding: 24px 0;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.header-menu-item {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.header-address-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-menu-item .header-link {
+color: #2E2F42;
+}
+
+.header-menu-item .header-link:hover {
+color: #404BBF;
+}
+
+.header-menu-item .header-link:focus {
+color: #404BBF;
+}
+
+.header-menu-item #header-link:active {
+    text-decoration: underline;
+}
+
+.header-address {
+    display: flex;
+    font-style: normal;
+}
+
+.header-address-link {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link:hover {
+    color: #404BBF;
+}
+
+.header-address-link:focus {
+    color: #404BBF;
+}
+
+/* ======================= */
+
+/* =============BODY============= */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.body-head-section {
+background-color: #2E2F42;
+padding-top: 188px;
+padding-bottom: 188px;
+}
+
+.body-head {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+}
+
+.body-button-head {
+background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: block;
+    margin: 0 auto;
+    min-width: 169px
+}
+
+.body-button-head:hover {
+    background-color: #404BBF;
+}
+
+.body-button-head:focus {
+    background-color: #404BBF;
+}
+
+.visually-hidden {
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        overflow: hidden;
+}
+
+.body-info-list {
+    display: flex;
+    gap: 24px;
+}
+
+.body-info-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.body-info-head {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+        width: 264px;
+}
+
+.body-info-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        width: 264px;
+}
+
+.body-team-section {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.body-team-head {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2E2F42;
+        margin-bottom: 72px;
+}
+
+.body-team-div {
+    padding: 32px 0;
+}
+
+.body-team-item {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.body-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.body-team-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.body-team-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.body-port-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
+}
+
+.body-port-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.body-port-head {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2E2F42;
+        margin-bottom: 72px;
+}
+
+.body-port-subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        margin-bottom: 8px;
+}
+.body-port-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.body-port-div {
+    border: 1px  solid rgb(231, 233, 252);
+    border-top: 0;
+    padding: 32px 16px 32px 16px;
+}
+
+/* ======================== */
+
+/* ================FOOTER================= */
+
+.footer-comm {
+    background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-comm-link {
+    font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        display: inline-block;
+        margin-bottom: 16px;
+}
+
+.footer-comm-span {
+    color: #F4F4FD;
+}
+
+.footer-comm-text {
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+        width: 264px;
+}
+
+/* ======================= */
